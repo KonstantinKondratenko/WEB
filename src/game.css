@@ -1,0 +1,39 @@
+* 
+{
+    padding: 0;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body 
+{    
+    height: 100vh;
+    background-image: url('./img/pbg.jpg');
+    background-size:cover;
+    background-position: center;
+}
+
+#information 
+{
+    margin-right: 100px;
+}
+
+#main 
+{
+    display: flex;
+    justify-content: center;
+}
+
+#figure_preview
+{
+    border: 1px solid #2f13cd;
+    border-radius: 5px;
+    background-color: #13e3ee;
+}
+
+#playground 
+{
+    border: 1px solid #f50b0b;
+    border-radius: 10px;
+    background-color: #d01515;
+}

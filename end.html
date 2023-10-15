@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+    <head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./src/end.css" />
+       <title>Tetris-records</title>
+	</head>
+<body>
+    <div id="main">
+        <div id="content">
+            <form id="restart_form" action="./game.html">
+                <button id="button" type="submit">Restart!</button>
+            </form>
+            <form id="new_game" action="./index.html">
+                <button id="button" type="submit">New game!</button>
+            </form>
+            <div id="records_table"></div>
+        </div>
+    </div>
+
+    </div>
+
+    <script>
+        const table = JSON.parse(localStorage.getItem("records_table"));
+        document.getElementById("records_table").innerHTML = `<ul> 
+            ${table.map((record) => `<li id="record_list">${record[0]} : ${record[1]} очков</li>`).join("")}
+        </ul>`;
+    </script>
+    </div>
+</body>
+</html>
