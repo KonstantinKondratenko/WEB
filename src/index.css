@@ -1,0 +1,64 @@
+* 
+{
+    padding: 0;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body 
+{
+    height: 100vh;
+    background-image: url('./img/ttr.jpg');
+    background-size:cover;
+    background-position: center;
+
+}
+
+#main 
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin-left: auto;
+    margin-right: auto
+}
+
+
+input 
+{
+    margin:50px;
+    padding:20px;
+}
+
+#input 
+{
+    margin-top: 400px;
+    border:5px solid #e779a9;
+    transition: .3s background-color;
+}
+
+#input:hover 
+{
+    background-color: #0fb7e5;
+}
+
+
+#start 
+{
+    background-color: #60e518;
+    font-size: 3rem;
+    line-height: 3rem;
+    padding: 3rem; 
+}
+/* 
+#start:hover 
+{
+    transform: translate3d( 0px, 5px, 0px);
+}
+
+#start:focus 
+{
+    box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
+} */
